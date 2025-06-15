@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background: linear-gradient(to right, #7aaff6, #bfbcc2);
+  padding: 60px 20px;
+  margin: 80px auto 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  height: 220px;
+  width: 150px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(128, 145, 241, 0.3);
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.intro {
+  width: 50%;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.data:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.work {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workheading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 90%;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  text-align: left;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #1f252d, #231c2b);
+  color: #fff;
+}
+
+.card:hover h3,
+.card:hover p {
+  color: #fff;
+}
+
+@media (hover: none) {
+  .card:active {
+    background-color: #7aaff6;
+    color: #fff;
+  }
+
+  .card:active h3,
+  .card:active p {
+    color: #fff;
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+  .info {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .data {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .intro {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .img {
+    margin-bottom: 20px;
+  }
+
+  .info {
+    justify-content: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+}

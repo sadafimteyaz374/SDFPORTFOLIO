@@ -1,0 +1,130 @@
+.myskill {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right, #7aaff6, #bfbcc2);
+  padding: 80px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin: 30px 0 20px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.box i {
+  font-size: 45px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.box h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.box .description {
+  position: absolute;
+  bottom: 10px;
+  transform: translateY(20px);
+  opacity: 0;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0 10px;
+  text-align: center;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.box:hover {
+  background: black;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover i,
+.box:hover h2 {
+  color: white;
+}
+
+.box:hover .description {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.info {
+  height: auto;
+  width: 90%;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 1024px) {
+  .skill-row {
+    gap: 40px;
+  }
+
+  .box {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-row {
+    gap: 30px;
+  }
+
+  .box {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+    max-width: 300px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+}
