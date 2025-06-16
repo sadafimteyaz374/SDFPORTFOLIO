@@ -16,7 +16,7 @@ function Home() {
         <br/><br/>
         <div className="icon">
           <div className="ico">
-            <a href="https://www.linkedin.com/in/sadaf-imteyaz" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://linkedin.com/in/sadaf-imteyaz-a6659a27a" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
           </div>
           <div className="ico">
             <a href="https://github.com/sadafimteyaz374" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-github"></i></a>

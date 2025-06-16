@@ -19,7 +19,7 @@ function Contact() {
         <div className="opt">
           <p><strong>Email :</strong> <a href="mailto:sadafimteyaz97@gmail.com">sadafimteyaz97@gmail.com</a></p>
           <p><strong>Phone no :</strong> <a href="tel:+919142581206">9142581206</a></p>
-          <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/sadaf-imteyaz" target="_blank" rel="noopener noreferrer">linkedin.com/in/sadaf-imteyaz</a></p>
+          <p><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/sadaf-imteyaz-a6659a27a" target="_blank" rel="noopener noreferrer">linkedin.com/in/sadaf-imteyaz-a6659a27a</a></p>
           <p><strong>GitHub :</strong> <a href="https://github.com/sadafimteyaz374" target="_blank" rel="noopener noreferrer">github.com/sadafimteyaz374</a></p>
         </div>
       </div>
