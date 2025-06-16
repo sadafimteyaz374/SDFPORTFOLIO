@@ -25,14 +25,15 @@ https://sdfportfolio-43rg.vercel.app/Resume
 
 ## 🔗 Live Demo
 
-👉 [Live Portfolio Website](https://sdfportfolio-43rg.vercel.app/)
+👉 [Live Portfolio Website](https://sdfportfolio.vercel.app/)
 
 ## 📫 Contact Me
 
 - Email: sadafimteyaz97@gmail.com
 - GitHub: [sadafimteyaz374](https://github.com/sadafimteyaz374)
-- LinkedIn: [sadaf-imteyaz](https://www.linkedin.com/in/sadaf-imteyaz/)
+- LinkedIn: [sadaf-imteyaz](https://linkedin.com/in/sadaf-imteyaz-a6659a27a)
 
 ---
 
 > Feel free to clone, fork, or use this structure to build your own portfolio. Don’t forget to give a ⭐ if you like it!
+> 
