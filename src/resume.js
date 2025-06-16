@@ -74,7 +74,7 @@ const Resume = () => {
 
       
       <div className="section">
-        <a href="/Resume.pdf" download className="n-link1">Download Resume</a>
+        <a href="/sadaf_resume.pdf" download className="n-link1">Download Resume</a>
       </div>
     </div>
   );
