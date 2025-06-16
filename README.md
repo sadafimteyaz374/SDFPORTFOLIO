@@ -6,8 +6,8 @@ This is my personal portfolio website built using React.js, showcasing my skills
 
 - ✨ Modern and clean UI
 - 📱 Fully responsive design (Mobile, Tablet, Laptop)
-- 📂 Project showcase with images and links
-- 🧠 Skills section with animated progress bars
+- 📂 Project showcase with images
+- 🧠 Skills section
 - 📇 Resume download functionality
 - 📞 Contact section with clickable phone/email
 - 🌗 Light color scheme for better readability
@@ -21,7 +21,7 @@ This is my personal portfolio website built using React.js, showcasing my skills
 
 ## Resume
 
-https://sdfportfolio-43rg.vercel.app/Resume
+https://sdfportfolio.vercel.app/Resume
 
 ## 🔗 Live Demo
 
